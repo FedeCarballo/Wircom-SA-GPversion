@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none !important;
+}
+@font-face{
+    font-family: nunito-black;
+    src: url(/font/NunitoSans-Black.ttf);
+}
+/* BOTON WHATSAPP */
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+.float:hover {
+	text-decoration: none;
+	color: #25d366;
+  background-color:#fff;
+}
+
+.my-float{
+	margin-top:16px;
+}
+
+/*NAVBAR*/
+.header img{
+    width: 15vh;
+    background-color: #8c2d18 !important;
+}
+.header nav {
+    background-color: #8c2d18 !important;
+}
+
+.navbar-nav {
+    display: flex !important;
+    justify-content: space-around !important; 
+}
+
+.nav-link{
+    color: white !important;
+    font-size: larger !important;
+    justify-content: space-around !important;
+}
+
+/* TITULOS */
+.Title
+    {
+        width: 100%;
+        height: 25vh;
+        margin-bottom: 10vh;
+        background-image: url('/media/images/carousell/WhatsApp\ Image\ 2022-01-03\ at\ 1.06.31\ PM.jpeg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+.Title h1{
+    width: 85%;
+    text-align: center;
+    color: white;
+    font-size: 5vh;
+    font-family: nunito-black;
+}
+
+/* MEDIOS DE CONTACTO */
+.CONTACTO{
+    text-align: center;
+    padding-bottom: 4vh;
+}
+
+.CONTACTO p{
+    font-size: 2.5vh;
+}
+.CONTACTO__titles {
+    color: #8c2d18 ;
+    font-size: 4vh !important;
+    text-align: center;
+    margin: 3vh 0 3vh 0;
+    font-family: nunito-black;
+}
+
+.CONTACTO__button{
+    border: #8c2d18 solid !important;
+    color: #8c2d18;
+    width: 20vh;
+    margin: 3vh;
+    padding: 1vh 4vh !important;
+    font-size: 2vh !important;
+
+}
+
+/* FOOTER */
+footer {
+    width: 100%;
+    background-color: #8c2d18 !important;
+    color: white; 
+}
+  
+.container-footer-all {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 30px; 
+}
+.img__logo3{
+    width: 7vh;
+}
+ 
+.img__logo2{
+    padding-bottom: 1vh;
+    width: 13vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.container-body {
+    display: flex;
+    justify-content: space-around; 
+} 
+ 
+.column1 {
+    max-width: 380px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;}
+
+.column1 h1 {
+      font-size: 3vh; }
+
+
+.column2 {
+        max-width: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}       
+
+.column3 {
+    max-width: 400px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.column3__p{
+    font-size: 2.3vh; 
+    margin: auto;
+    text-align: center;
+}
+.column3 h1 {
+    padding-top: 2vh;
+    font-size: 4vh; 
+    padding-bottom: 2vh;
+}
+
+.row2 p {
+    font-size: 3.1vh;
+    text-align: center; 
+}
+
+/* RESPONSIVE */
+@media screen and (min-width: 990px) {
+
+    .TEXT__title, .CONTACTO__titles{
+        font-size: 5.8vh;
+        color: #8c2d18 ;
+        text-align: center;
+        margin: 8vh 0;
+    }
+    .TEXT__title__white{
+        width: 94%;
+        margin: auto;
+        font-size: 5.5vh;
+        text-align: center;
+        padding: 8vh 0;
+    }
+    .navbar {
+        display: flex !important;
+
+    }
+    .navbar-collapse{
+        display: flex !important;
+    }
+    .navbar-nav{ 
+        margin: 0 3vh;
+    }
+    .nav-link{
+        margin: 0 3vh;
+        font-size: 2.5vh !important;
+    }
+    .container-fluid img{
+        width: 10vh;
+    }
+    .CONTACTO{
+        height: 50vh;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+    }
+    .CONTACTO div{
+        width: 40%;
+    }
+}
+@media screen and (max-width: 650px) {
+      .container-body {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media screen and (min-width:400px) and (max-width: 900px) {
+    .container-body {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+}
+    .column1 label, .column2 label, .column3 ul li {
+        font-size: 2.5vh !important; }
+}
+
+@media screen and (max-width: 1100px) {
+    .container-body {
+      flex-wrap: wrap; }
+    .column2, .column3 {
+      margin-top: 40px; }
+    .column1 label, .column2 label {
+      font-size: 1.9vh; } }
