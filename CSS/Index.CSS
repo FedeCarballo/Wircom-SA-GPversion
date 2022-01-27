@@ -19,9 +19,9 @@
 	color:#FFF;
 	border-radius:50px;
 	text-align:center;
-  font-size:30px;
+    font-size:30px;
 	box-shadow: 2px 2px 3px #999;
-  z-index:100;
+    z-index:100;
 }
 .float:hover {
 	text-decoration: none;
@@ -96,11 +96,7 @@
     text-align: center;
     padding-top: 3vh;
 }
-.MAS__BUTTON{
-    margin: 3vh;
-    padding: 1vh 4vh !important;
-    font-size: 2vh !important;
-}
+
 /* POLITICA */
 .POLITICA__title{
     padding: 8vh ;
@@ -161,8 +157,10 @@
 .PRODUCTOS__BUTTON, .MAS__BUTTON {
     border: #8c2d18 solid !important;
     color: #8c2d18;
-    padding: 1.6vh;
-    font-size: 2.5vh;
+    margin: 3vh;
+    padding: 1vh 4vh !important;
+    font-size: 2vh !important;
+    border-radius: 13px;
 }
 
 /* SERVICIOS */
@@ -271,17 +269,19 @@ footer {
 @media screen and (min-width: 990px) {
 
     .TEXT__title{
-        font-size: 5.8vh;
+        font-size: 6.5vh;
         color: #8c2d18 ;
         text-align: center;
         margin: 8vh 0;
+        font-family: nunito-black;
     }
     .TEXT__title__white{
         width: 94%;
         margin: auto;
-        font-size: 5.5vh;
+        font-size: 6.5vh;
         text-align: center;
         padding: 8vh 0;
+        font-family: nunito-black;
     }
     .navbar {
         display: flex !important;
@@ -294,8 +294,9 @@ footer {
         margin: 0 3vh;
     }
     .nav-link{
-        margin: 0 3vh;
+        margin: 0 6.6vh;
         font-size: 2.5vh !important;
+        font-family: nunito-black !important;
     }
     .container-fluid img{
         width: 10vh;
@@ -315,6 +316,7 @@ footer {
     .EMPRESA__TITLE__TEXT p{
         width: 80%;
         margin: auto;
+        font-size: 2vh;
     }
     .EMPRESA__BUTTON{
         display: flex;
@@ -326,13 +328,18 @@ footer {
         padding:1vh 4vh ;
         font-size: 2vh;
     }
+
+    .TEXT__title__white1{
+        padding: 6vh 0;
+        font-size: 6.5vh;
+    }
     .POLITICA{
         padding-top: 6vh;
     }
     
-    .POLITICA__P{
+    .POLITICA__P, .POLITICA__P2{
         width: 50%;
-        font-size: 2.3vh;
+        font-size: 2vh;
         margin-bottom: 3vh;
     }
     .POLITICA__LI {
@@ -350,9 +357,18 @@ footer {
         justify-content: space-around;
         flex-wrap: wrap;
     }
+    .SERVICIOS h1{
+        font-family: nunito-black;
+        text-align: center;
+        padding: 8vh 0;
+        font-size: 7.4vh;
+    }
     .SERVICIOS__DIV div{
         width: 45%;
         margin-top: 2vh;
+    }
+    footer{
+        margin-top: 5vh;
     }
 }
 

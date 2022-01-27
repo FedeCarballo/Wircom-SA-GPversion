@@ -58,7 +58,7 @@ a{
 .Title
     {
         width: 100%;
-        height: 25vh;
+        height: 40vh;
         margin-bottom: 10vh;
         background-image: url('../media/images/carousell/WhatsApp\ Image\ 2022-01-03\ at\ 1.06.31\ PM.jpeg');
         background-position: center;
@@ -100,6 +100,7 @@ a{
     margin: 3vh;
     padding: 1vh 4vh !important;
     font-size: 2vh !important;
+    border-radius: 13px;
 
 }
 
@@ -179,7 +180,7 @@ footer {
 @media screen and (min-width: 990px) {
 
     .TEXT__title, .CONTACTO__titles{
-        font-size: 5.8vh;
+        font-size:6.5vh;
         color: #8c2d18 ;
         text-align: center;
         margin: 8vh 0;
@@ -187,9 +188,13 @@ footer {
     .TEXT__title__white{
         width: 94%;
         margin: auto;
-        font-size: 5.5vh;
+        font-size: 6.5vh;
         text-align: center;
         padding: 8vh 0;
+    }
+    .Title h1{
+        font-size: 6.5vh;
+        font-family: nunito-black;
     }
     .navbar {
         display: flex !important;
@@ -202,9 +207,11 @@ footer {
         margin: 0 3vh;
     }
     .nav-link{
-        margin: 0 3vh;
+        margin: 0 6.6vh;
         font-size: 2.5vh !important;
+        font-family: nunito-black !important;
     }
+  
     .container-fluid img{
         width: 10vh;
     }
